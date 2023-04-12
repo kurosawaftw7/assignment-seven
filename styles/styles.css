@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    background-color: rgb(19, 3, 92);
+}

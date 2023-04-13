@@ -17,3 +17,17 @@
 header {
     background-color: rgb(19, 3, 92);
 }
+
+footer {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: (footerImage.jpg);
+}
+
+img {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+  }

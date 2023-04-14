@@ -25,6 +25,7 @@
 
 .grid-container {
     display: grid;
+    grid-template-columns: 150px 4fr;
     grid-gap: 5px 10px;
 }
 
@@ -33,10 +34,14 @@ header {
     color:antiquewhite;
 }
 
+h1 {
+    font-size: x-large;
+}
+
 .grid-row {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .giap {
@@ -47,11 +52,22 @@ body {
     background-color: aquamarine;
 }
 
+.instructor {
+    display: table-column;
+    position: relative;
+    left: 30px;
+}
+
+.inbio {
+    display: table-row;
+    position: absolute;
+    right: 30px;
+}
+
 footer {
     height: 400px;
     width: 100%;
     position: relative;
-    /* z-index: -1; */
 }
 
 .footerimg {

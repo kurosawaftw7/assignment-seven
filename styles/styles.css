@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-.col {
-    float: left;
-    padding: 5px;
-    border: 1px solid red;
-}
-
 .flexbox-container {
     flex-direction: column;
     flex-wrap: wrap;
@@ -17,10 +11,6 @@
     content: "";
     clear: both;
     display: table;
-}
-
-.grid-container div {
-    border: 1px solid rgb(255, 255, 255);
 }
 
 .grid-container {

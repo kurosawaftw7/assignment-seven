@@ -26,7 +26,15 @@ h1 {
 
 .a {
     position: right;
+    color: red;
 
+}
+
+nav a {
+    padding: .5rem;
+    margin: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .grid-row {
@@ -60,6 +68,7 @@ footer {
     height: 400px;
     width: 100%;
     position: relative;
+    color: rgba(153, 8, 8, 0.795);
 }
 
 .footerimg {

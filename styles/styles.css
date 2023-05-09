@@ -9,6 +9,25 @@
     grid-gap: 5px 10px;
 }
 
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden-focus {
+    left: 0;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .grid-container2 {
     display: inline-grid;
     grid-template-columns: 150px 4fr;

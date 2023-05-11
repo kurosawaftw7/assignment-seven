@@ -47,7 +47,7 @@ h1 {
     position: right;
 }
 
-.a:visited {
+a:hover {
     color:red;
 }
 
